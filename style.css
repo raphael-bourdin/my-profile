@@ -1,0 +1,118 @@
+body, html{
+	margin: 100;
+	padding: 100;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.profile, .eyes, .yo, .ok{
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+	transition: transform 0.3s ease;
+}
+
+.profile: hover, .eyes:hover, .yo:hover, .ok:hover { 
+	transform:scale(1.0);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #4682B4;
+	font-family: Arial, sans-serif;
+}
+
+.profile, .eyes, .yo, .ok {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #FEFEE2;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+
+.profile,
+.eyes,
+.yo,
+.ok{
+	max-width: 100%;
+	padding: 0 15px;
+	margin-bottom: 40px;
+}
+
+profile img {
+	max-width: 180px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.profile {
+	text-align: center;
+	margin: 40px auto;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+}
+
+.ok {
+	margin: 40px auto;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+}
+
+.profile img{
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.profile {
+	text-align: center;
+	margin: 20px;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+}
+
+.profile img {
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
